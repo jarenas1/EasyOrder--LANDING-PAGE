@@ -7,6 +7,23 @@ body {
     color: #333;
 }
 
+::-webkit-scrollbar {
+    width: 8px; 
+}
+
+/* Estilo del track (área por donde se mueve el thumb) */
+::-webkit-scrollbar-track {
+    background: #0F0F1D;
+    border-radius: 15px; 
+}
+
+/* Estilo del thumb (la parte móvil de la barra de desplazamiento) */
+::-webkit-scrollbar-thumb {
+    background: #F30084; 
+    border-radius: 10px; 
+}
+
+
 .container-header {
     width: 100%;
     margin: 0 auto;
@@ -54,7 +71,7 @@ p {
     background-color: #F30084;
     color: #fff;
     padding: 0px 10px;
-    padding-top: 10px;
+    padding-top: 15px;
     height: 35px;
     text-decoration: none;
     border-radius: 8px;
